@@ -13,6 +13,8 @@ public class App {
             boolean resultado = eBisexto(ano);
             System.out.println("Ano "+ano +" e bisexto? " + resultado);
         }
+    }else{
+        System.out.println("Erro tente novamente");
     }
     }
     static boolean eBisexto(int ano){
